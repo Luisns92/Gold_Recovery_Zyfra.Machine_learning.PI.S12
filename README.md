@@ -1,26 +1,28 @@
-# Zyfra recuperación de oro, Aprendizaje supervisado y tratamiento de datos
+# Zyfra, Aprendizaje supervisado y tratamiento de datos
 
 📖 Resúmen:  
-  Crear, entrenar y aplicar modelo de predicción para la empresa OilyGiant que quiere saber cual región es la mejor para abrir 200 pozos petrolíficos con un presupuesto limitado de 100 millones de dólares.  
+  Necesitamos formatear. limpiar y eficientar la base de datos para poder crear un modelo predictivo confiable para la empresa Zyfra dedicada al desarrollo de soluciones de eficiencia para la industria pesada.
 .  
 .  
 .  
 🎯 Objetivo:  
-  Identificar cual región y que pozos podrían ser los más rentables.
+  Mediante un modelo predictivo obtener información que permita predecir la cantidad de oro extraído de el mineral de oro.
 
 ❌ Problema:  
-  Tienen un presupuesto limitado para abrir los pozos, por lo que necesitamos información más precisa.
+  Amplia base de datos con bastantes valores ausentes o incoherentes.
 
 ✅ Solución:  
-  Creamos un modelo predictivo eficiente para elegir la región y los pozos con la mayor retribución y menor riesgo de pérdida.
+  Limpiamos y tratamos de forma efectiva datos según su naturaleza y creamos un modelo predictivo preciso.
 
 🔢 Metodologia:  
-  1. Análisis y limpieza de datos.  
-  2. Creación de 3 funciones con modelo de regresión lineal que por región:  
-     2.1. predice el volúmen promedio de reservas y RMSE,  
-     2.2. predice las ganancias potenciales,  
-     2.3. y calcula el riesgo y ganancias.  
-  3. Elección final y conclusión.
+  1. Análisis y formateo de datos.  
+  2. Comprobación de datos correctos mediante formula de recuperación de oro del primer proceso.
+  3. Reordenamiento de columnas según su lugar en el proceso.
+  4. Eliminación de valores ausentes en columnas críticas del proceso y eliminación de valores incongruentes del proceso.
+  5. Tratamiento de valores ausentes que no pueden ser eliminados mediante reemplazo de valores a "0", reemplazo de valores con la mediana, interpolación lineal y calculo de resultado con formula de recuperación final del oro.
+  6. Analizamos y presentamos visualmente las tendencias de los metales principales (au, ag, pb, sol).
+  7. Creación, validación y elección de modelos mediante validación cruzada (árbol de decisión, bosque aleatorio y regresión lineal).
+  8. Prueba de modelo final con métrica SMAPE y muestra de conclusiones.
 
 📊 Conclusiones:  
-  Se logro crear un modelo eficeinte capas de elegir la mejor región para invertir los 100 millones de dólares con el ingreso predicho más alto y con el riesgo de muy bajo a bajo.
+  Creación de un modelo exitoso, tan solo se equivoca el 1.18 veces de cada 100 predicciones (métrica SMAPE final).
